@@ -880,7 +880,9 @@ select.form-control.has-value{
  video advert sections
  styles
  ***************************/
-
+.header-wrapper{
+height:100vh;
+}
 .header{
 position:relative;
 padding-bottom:1.4rem;
@@ -890,7 +892,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 100%;
+height: 100vh;
 object-fit: cover;
 opacity: 0.8;
 }
@@ -899,7 +901,7 @@ position:absolute;
 background:rgba(0,0,0,0.7);
 top:0;
 width:100%;
-height:100%;
+height:100vh;
 }
 .header .video-text{
 position:relative;
@@ -922,6 +924,29 @@ padding:0;
 margin:0;
 text-align:center !important;
 }
+.scroll-to-target.scroll-top{
+background:orange;
+}
+.scroll-to-target.scroll-top .ti-angle-up{
+color:#000000;
+font-weight:600;
+font-size:1.4rem;
+}
+.card-body.bg-transparent{
+background:#1e3259!important;
+}
+
+
+
+
+/*************************************
+Added  Styles End
+======================================
+*/
+
+
+
+
 
 
 .shape-bottom img.bottom-shape {
