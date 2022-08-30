@@ -935,8 +935,12 @@ font-size:1.4rem;
 .card-body.bg-transparent{
 background:#1e3259!important;
 }
-
-
+.row.center .item{
+ display:flex;
+}
+.row.center .item .place-center{
+margin:auto;
+}
 
 
 /*************************************
