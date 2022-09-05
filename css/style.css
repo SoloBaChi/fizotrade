@@ -904,9 +904,16 @@ width:100%;
 height:100vh;
 }
 .header .video-text{
-position:relative;
+position:absolute;
 text-align:center !important;
 padding-top:4rem;
+top:0;
+width:100%;
+height:100vh;
+display:flex;
+}
+.header .video-text-content{
+margin:auto;
 }
 .header .video-text h1{
     font-size:4em;
